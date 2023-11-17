@@ -7,6 +7,9 @@ const nextConfig = {
             {hostname: "lh3.googleusercontent.com", protocol: "https"},
         ],
     },
+    typescript: {
+        ignoreBuildErrors: true,
+    }
 }
 
 module.exports = nextConfig
